@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software in your research, please cite it using the metadata below."
 type: software
 title: "Structural Subsampling Engine: Orientation Data Spatial Reduction for 3D Geological Modelling"
-repository-code: "https://github.com/[YOUR-USERNAME]/structpts-subsample"
+repository-code: "https://github.com/Loop3D/structpts-subsample"
 version: 1.0.0
 date-released: "2026-05-18"
 license: MIT
@@ -18,8 +18,8 @@ abstract: >
   using methods ranging from simple decimation to Kent-distribution-based
   spherical statistics and geologically-informed first-order subsampling.
   Includes corrections to known transcription errors in the published
-  Kent distribution estimation algorithm (Leong & Carlile 1998;
-  Carmichael & Ailleres 2016).
+  Kent distribution estimation algorithm (Leong and Carlile 1998;
+  Carmichael and Ailleres 2016).
 keywords:
   - structural geology
   - orientation data
@@ -33,7 +33,6 @@ authors:
   - family-names: "Joshi"
     given-names: "R."
     email: "raneejoshi@gmail.com"
-    orcid: "https://orcid.org/[YOUR-ORCID-HERE]"
 references:
   - type: article
     title: "Method and analysis for the upscaling of structural data"
@@ -68,19 +67,17 @@ references:
     start: 71
     end: 80
     year: 1982
-  - type: dataset
+  - type: generic
     title: "Bedding orientation and surface geology datasets for the southern Flinders Ranges"
     authors:
       - name: "Geological Survey of South Australia (GSSA)"
-    institution:
-      name: "Department for Energy and Mining, Government of South Australia"
+    year: 2024
     url: "https://map.sarig.sa.gov.au/"
-    notes: "SARIG — South Australia's Resource Information Gateway"
-  - type: dataset
+    note: "SARIG - South Australia's Resource Information Gateway, Department for Energy and Mining, Government of South Australia"
+  - type: generic
     title: "Structural geology and 1:500 000 interpreted bedrock geology data for the Ninghan Syncline, Murchison region"
     authors:
       - name: "Geological Survey of Western Australia (GSWA)"
-    institution:
-      name: "Department of Mines, Industry Regulation and Safety, Government of Western Australia"
+    year: 2024
     url: "https://dasc.dmirs.wa.gov.au/"
-    notes: "GSWA Open File Geoscience Data"
+    note: "GSWA Open File Geoscience Data, Department of Mines, Industry Regulation and Safety, Government of Western Australia"
