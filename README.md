@@ -1,6 +1,12 @@
 # structpts-subsample: Structural Subsampling Engine
 
-**`structpts-subsample`** | Version 1.0.0 | MIT License
+<!-- Badges — replace placeholders once the repository and Zenodo record are live -->
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20272216.svg)](https://doi.org/10.5281/zenodo.20272216)
+
+---
+
 
 ```python
 import structpts_subsample
@@ -212,7 +218,7 @@ If you use this software in your research, please cite it as:
 ```
 Joshi, R. (2026). Structural Subsampling Engine: Orientation Data Spatial Reduction
 for 3D Geological Modelling (Version 1.0.0). Zenodo.
-https://doi.org/[YOUR-DOI-HERE]
+https://doi.org/10.5281/zenodo.20272216
 ```
 
 A `CITATION.cff` file is provided for automated citation tools (GitHub, Zotero, etc.).
