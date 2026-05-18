@@ -154,25 +154,6 @@ Grid-cell methods write an additional `count`, `kappa`, and `beta` column in the
 
 ---
 
-## Key Design Decisions
-
-### Kent distribution corrections
-
-Two known transcription errors in the published Kent distribution estimation algorithm (Leong & Carlile 1998; Carmichael & Ailleres 2016) are corrected in this implementation:
-
-1. **H-matrix** — position [2,1] must be `sin(θ)·sin(φ)`, not `sin(θ)·cos(φ)`.
-2. **Sword angle** — the denominator must be `B[0,0] − B[1,1]` (diagonal difference), not `B[0,1] − B[1,1]`.
-
-### Reproducibility
-
-The stochastic method uses a fixed random seed (`random_state=42`) by default, ensuring reproducible results across runs. Pass `stoch_random_state=None` to draw a fresh random sample each time.
-
-### Outlier removal threshold
-
-Grid cells containing 3 or fewer measurements are excluded from the output of the outlier removal methods, as insufficient data remain for reliable Kent distribution estimation.
-
----
-
 ## Command-Line Execution
 
 The module can be run directly to process the two configured example datasets (Flinders Range and Ninghan Syncline):
