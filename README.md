@@ -12,7 +12,7 @@
 import structpts_subsample
 ```
 
-A Python library implementing seven spatial subsampling algorithms for structural orientation data (bedding, foliation) used in 3D geological modelling workflows. The engine reduces spatial clustering while preserving the statistical character of orientations, supporting workflows from rapid exploratory decimation through to geologically-informed first-order subsampling.
+A Python library implementing six spatial subsampling algorithms for structural orientation data (bedding, foliation) used in 3D geological modelling workflows. The engine reduces spatial clustering while preserving the statistical character of orientations, supporting workflows from rapid exploratory decimation through to geologically-informed first-order subsampling.
 
 ---
 
