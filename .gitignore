@@ -1,0 +1,17 @@
+# Node.js
+docs/node_modules/
+
+# Unpacked DOCX working directory (build artefact)
+docs/manual_unpacked/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ArcGIS lock files
+*.sr.lock
