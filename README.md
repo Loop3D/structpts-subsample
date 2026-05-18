@@ -1,4 +1,4 @@
-# structpts-subsample: Structural Subsampling Engine
+# structpts-subsample: Orientation Data Spatial Reduction for 3D Geological Modelling
 
 <!-- Badges — replace placeholders once the repository and Zenodo record are live -->
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -216,8 +216,8 @@ See the `examples/` directory for standalone example scripts:
 If you use this software in your research, please cite it as:
 
 ```
-Joshi, R. (2026). Structural Subsampling Engine: Orientation Data Spatial Reduction
-for 3D Geological Modelling (Version 1.0.0). Zenodo.
+Joshi, R., Jessell, M. & Lindsay, M. (2026). structpts-subsample: Orientation Data
+Spatial Reduction for 3D Geological Modelling (Version 1.0.0). Zenodo.
 https://doi.org/10.5281/zenodo.20272216
 ```
 
