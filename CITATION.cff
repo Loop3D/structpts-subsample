@@ -33,6 +33,10 @@ authors:
   - family-names: "Joshi"
     given-names: "R."
     email: "raneejoshi@gmail.com"
+  - family-names: "Jessell"
+    given-names: "M."
+  - family-names: "Lindsay"
+    given-names: "M."
 references:
   - type: article
     title: "Method and analysis for the upscaling of structural data"
