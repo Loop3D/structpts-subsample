@@ -1,4 +1,4 @@
-# Structural Subsampling Engine
+# structpts-subsample: Structural Subsampling Engine
 
 **`structpts-subsample`** | Version 1.0.0 | MIT License
 
