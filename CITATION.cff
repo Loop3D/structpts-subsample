@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+title: "Structural Subsampling Engine: Orientation Data Spatial Reduction for 3D Geological Modelling"
+repository-code: "https://github.com/Loop3D/structpts-subsample"
+version: 1.0.0
+date-released: "2026-05-18"
+license: MIT
+identifiers:
+  - description: "Python package name"
+    type: other
+    value: "structpts_subsample"
+abstract: >
+  A Python library implementing seven spatial subsampling algorithms for
+  structural orientation data (bedding, foliation) used in 3D geological
+  modelling workflows. The engine reduces spatial clustering in point
+  datasets while preserving the statistical character of orientations,
+  using methods ranging from simple decimation to Kent-distribution-based
+  spherical statistics and geologically-informed first-order subsampling.
+  Includes corrections to known transcription errors in the published
+  Kent distribution estimation algorithm (Leong and Carlile 1998;
+  Carmichael and Ailleres 2016).
+keywords:
+  - structural geology
+  - orientation data
+  - spatial subsampling
+  - Kent distribution
+  - spherical statistics
+  - 3D geological modelling
+  - bedding measurements
+  - data reduction
+authors:
+  - family-names: "Joshi"
+    given-names: "R."
+    email: "raneejoshi@gmail.com"
+references:
+  - type: article
+    title: "Method and analysis for the upscaling of structural data"
+    authors:
+      - family-names: "Carmichael"
+        given-names: "T."
+      - family-names: "Ailleres"
+        given-names: "L."
+    journal: "Journal of Structural Geology"
+    volume: 83
+    start: 121
+    end: 133
+    year: 2016
+    doi: "10.1016/j.jsg.2015.09.003"
+  - type: article
+    title: "A method for estimating the Kent distribution parameters for orientation data"
+    authors:
+      - family-names: "Leong"
+        given-names: "L.S."
+      - family-names: "Carlile"
+        given-names: "J.C."
+    journal: "Mathematical Geology"
+    year: 1998
+  - type: article
+    title: "The Fisher-Bingham distribution on the sphere"
+    authors:
+      - family-names: "Kent"
+        given-names: "J.T."
+    journal: "Journal of the Royal Statistical Society Series B"
+    volume: 44
+    issue: 1
+    start: 71
+    end: 80
+    year: 1982
+  - type: generic
+    title: "Bedding orientation and surface geology datasets for the southern Flinders Ranges"
+    authors:
+      - name: "Geological Survey of South Australia (GSSA)"
+    year: 2024
+    url: "https://map.sarig.sa.gov.au/"
+    note: "SARIG - South Australia's Resource Information Gateway, Department for Energy and Mining, Government of South Australia"
+  - type: generic
+    title: "Structural geology and 1:500 000 interpreted bedrock geology data for the Ninghan Syncline, Murchison region"
+    authors:
+      - name: "Geological Survey of Western Australia (GSWA)"
+    year: 2024
+    url: "https://dasc.dmirs.wa.gov.au/"
+    note: "GSWA Open File Geoscience Data, Department of Mines, Industry Regulation and Safety, Government of Western Australia"
