@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite it using the metadata below."
 type: software
-title: "Structural Subsampling Engine: Orientation Data Spatial Reduction for 3D Geological Modelling"
+title: "structpts-subsample: Orientation Data Spatial Reduction for 3D Geological Modelling"
 repository-code: "https://github.com/Loop3D/structpts-subsample"
 version: 1.0.0
 date-released: "2026-05-18"
